@@ -1,8 +1,8 @@
 <div class="row d-flex justify-content-center">
-    <div class="col-md-6">
-        <form>
-            <legend>Find out</legend>
-            <label for="bill">Bill Amount: $</label>
+    <div class="col-md-4">
+        <form class="align-items-center">
+            
+            <label for="bill" class="pt-4">Bill Amount: $</label>
             {{input value=billAmount}}
             <br><br>
 
@@ -16,7 +16,7 @@
             <button {{action "calculate" 20 billAmount numP}}>20%</button>
             <br><br>
 
-            <div id="result"></div>
+            <div id="result" class="text-center"></div>
 
         </form>
     </div>

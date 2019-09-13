@@ -2,24 +2,39 @@ h1 {
     text-decoration: underline;
     background-color: black;
     color: gold;
+    text-align: center;
 }
 
 form{
     background-color: lightblue;
+    border: dashed;
+    padding-left: 30px;
+    padding-right: 30px;
 }
-legend{
-    font-weight: bolder;
+
+button{
+    background-color: crimson;
+    color: white;
+    font-weight: bold;
+}
+
+button:hover{
+    background-color: darkorange;
+    border-radius: 20%;
 }
 
 label{
     font-weight: bold;
+    text-decoration: underline;
 }
 
 input{
     font-weight: bold;
-    background-color: lightgreen;
 }
 
 #result{
     font-weight: bold;
+    background-color: white;
+    border: 1px solid;
+    margin-bottom: 30px;
 }

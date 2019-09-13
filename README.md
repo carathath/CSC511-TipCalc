@@ -1,59 +1,43 @@
-# calctip
+# Tip Calculator
 
-This README outlines the details of collaborating on this Ember application.
-A short introduction of this app could easily go here.
+Author: Luis Carazas
 
-## Prerequisites
+This project calculates the total bill for an amount the user inputs
 
-You will need the following things properly installed on your computer.
+## Time spent
+Describe the time you spent on the project.
+ * Tutorials, research: 3 hours
+ * Coding required stories: 2 hours
+ * Optional and extras: 2 hours
 
-* [Git](https://git-scm.com/)
-* [Node.js](https://nodejs.org/) (with npm)
-* [Ember CLI](https://ember-cli.com/)
-* [Google Chrome](https://google.com/chrome/)
+## User stories
+I was confused as to why my component was not outputting but then I figured out I forgot to put it in brackets in the application.hbs file. After that I mostly spent my time figuring out how to pass the values from my form into my javascript for calculations.
 
-## Installation
+### Required
+ * [x] User can enter total bill amount
+ * [x] User can choose between at least three tip tiers (e.g. 15%, 18%, 20%) and see the total tip 
+ * [x] User can see the total with tip
 
-* `git clone <repository-url>` this repository
-* `cd calctip`
-* `npm install`
+### Optional
 
-## Running / Development
+ * [x] Add custom CSS to the calculator inputs
+ * [ ] Add a light/dark color theme toggle on the page
+ * [ ] User can enter tax amount
+ * [x] Page is optimized for the viewport/browser size (i.e. scales to mobile & desktop sizes)
+ * [ ] Remember the previous bill amount when the user re-opens the browser
+ * [ ] Use [locale specific](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NumberFormat) currency and currency separators.
 
-* `ember serve`
-* Visit your app at [http://localhost:4200](http://localhost:4200).
-* Visit your tests at [http://localhost:4200/tests](http://localhost:4200/tests).
+### Extra
 
-### Code Generators
+ * If the number of people is one, only the total bill amount and tip amount display. If there are more than one then a "Total per person" amount displays also.
+ 
 
-Make use of the many generators for code, try `ember help generate` for more details
+## GIF Walkthrough
 
-### Running Tests
+![Walkthrough GIF](vid.gif)
 
-* `ember test`
-* `ember test --server`
+GIF created with [LiceCap](https://www.cockos.com/licecap/).
 
-### Linting
+## Notes & shoutouts
 
-* `npm run lint:hbs`
-* `npm run lint:js`
-* `npm run lint:js -- --fix`
-
-### Building
-
-* `ember build` (development)
-* `ember build --environment production` (production)
-
-### Deploying
-
-Specify what it takes to deploy your app.
-
-## Further Reading / Useful Links
-
-* [ember.js](https://emberjs.com/)
-* [ember-cli](https://ember-cli.com/)
-* Development Browser Extensions
-  * [ember inspector for chrome](https://chrome.google.com/webstore/detail/ember-inspector/bmdblncegkenkacieihfhpjfppoconhi)
-  * [ember inspector for firefox](https://addons.mozilla.org/en-US/firefox/addon/ember-inspector/)
-# CSC511-TipCalc
-# calctip
+StackOverflow and W3Schools were very kind. 
